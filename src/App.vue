@@ -1,14 +1,32 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <Header />
+  <div class="container">
+    <router-view />
   </div>
-  <router-view/>
+  <Footer />
 </template>
 
+<script>
+import Footer from "@/components/Footer.vue";
+import Header from "@/components/Header.vue";
+
+export default {
+  name: "App",
+  components: {
+    Header,
+    Footer,
+  },
+};
+</script>
+
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&family=Gaegu&family=Walter+Turncoat&display=swap");
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: Avenir, Helvetica, Arial, sans-serif; */
+  /* font-family: "Coming Soon", cursive; */
+  font-family: "Gaegu", cursive;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -17,14 +35,15 @@
 
 #nav {
   padding: 30px;
+  color: white;
 }
 
-#nav a {
+a {
   font-weight: bold;
-  color: #2c3e50;
+  font-size: 20px;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+a:hover {
+  color: #b48bff;
 }
 </style>
