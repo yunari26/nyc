@@ -25,6 +25,32 @@
       </td>
     </table>
   </div>
+
+  <div class="portfolio pf-2">
+    <table>
+      <td class="left"><img src="../assets/LaravelBookReview.png" /></td>
+      <td class="right">
+        <ul>
+          <li>■ブックレビューサイト</li>
+          <li>created : 2021.5</li>
+          <li>framework : Laravel8</li>
+          <li>
+            <a class="pf-link" href="http://laravel-book-review.online/">Link</a
+            >/<a
+              class="pf-link"
+              href="https://github.com/yunari26/laravel-book-review"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            Comment : AWS<span
+              >環境での開発・デプロイ、独自ドメイン取得の練習。</span
+            >
+          </li>
+        </ul>
+      </td>
+    </table>
+  </div>
 </template>
 
 <style scoped>
@@ -33,8 +59,10 @@ h2 {
 }
 .portfolio {
   padding-top: 30px;
+  vertical-align: middle;
 }
 table {
+  width: 100%;
   margin: 0 auto;
 }
 td {
@@ -42,10 +70,11 @@ td {
   vertical-align: middle;
 }
 .left {
-  width: 400px;
+  width: 50%;
 }
 .right {
   text-align: left;
+  width: 50%;
 }
 li {
   font-size: 18px;
