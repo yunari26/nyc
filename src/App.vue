@@ -20,12 +20,12 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&family=Gaegu&family=Walter+Turncoat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&family=Gaegu&family=Kiwi+Maru:wght@300&family=Walter+Turncoat&display=swap");
 
 #app {
   /* font-family: Avenir, Helvetica, Arial, sans-serif; */
   /* font-family: "Coming Soon", cursive; */
-  font-family: "Gaegu", cursive;
+  font-family: "Gaegu", "Kiwi Maru", cursive;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -45,5 +45,6 @@ a {
 
 a:hover {
   color: #b48bff;
+  text-decoration: none !important;
 }
 </style>
