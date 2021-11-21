@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0bac3c"],{3933:function(n,t,c){"use strict";c.r(t);var e=c("7a23"),a=Object(e["g"])("h1",null,"Illust",-1),u=Object(e["g"])("p",null,"準備中...",-1),s=Object(e["g"])("a",{href:"\nhttps://instagram.com/yzuesm_/"},"Instagram",-1),r=Object(e["f"])("：ここにイラストを載せています ");function b(n,t){return Object(e["p"])(),Object(e["d"])(e["a"],null,[a,u,s,r],64)}const l={};l.render=b;t["default"]=l}}]);
+//# sourceMappingURL=chunk-2d0bac3c.c1216a13.js.map
